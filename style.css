@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    height: 100px;
+}
+
+ul, ol{
+    list-style-type: none;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+nav{
+    box-shadow: 3px 3px 30px rgb(246, 224, 224)
+}
+
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    text-align: left;
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero-text span {
+    color: green;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: gray;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-image img {
+    width: 275px;
+    height: 285px;
+}
+
+/* Client Section */
+.clients {
+    padding: 40px 0;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client img {
+    max-width: 80px;
+    height: auto;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-item img {
+    width: 50px;
+}
+
+.footer-item p {
+    font-weight: bold;
+}
